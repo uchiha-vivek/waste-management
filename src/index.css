@@ -66,3 +66,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background: #161513;
+  color: white;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

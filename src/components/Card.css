@@ -1,13 +1,22 @@
 .card-container {
-    width: 15rem;
+    width: 25rem;
     border-radius: 1rem;
     flex-direction: column;
     box-shadow: 0px 10px 8px #999;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: white;
     height: fit-content;
     margin: 0.5rem;
+    margin-left: 32rem;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
 }
+
+/* .main{
+  background-color: aqua;
+} */
 
 .card-img {
     width: 100%;
