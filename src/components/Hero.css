@@ -1,0 +1,28 @@
+
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.hero img{
+    margin-top: 50px;
+    height: 350px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.hero img:hover{
+    transform: scale(1.05);
+}
+
+.hero h1{
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+    font-weight: 600;
+}
